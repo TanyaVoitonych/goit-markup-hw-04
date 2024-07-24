@@ -455,7 +455,7 @@ img {
 
 .footer-container {
   display: flex;
-  align-items: flex-start;
+  align-items: fbaseline;
 }
 
 .footer-container-nav {
@@ -491,10 +491,11 @@ img {
 }
 
 .footer-text {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: #ffffff;
   max-width: 264px;
   margin-bottom: 16px;
 }
@@ -524,7 +525,7 @@ img {
   fill: #f4f4fd;
 }
 
-.soc-icon-footer:hover {
+.soc-icon-footer:is(:hover, :focus) {
   background-color: #31d0aa;
 }
 
