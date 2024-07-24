@@ -200,15 +200,12 @@ img {
 .benefits {
   padding-top: 120px;
   padding-bottom: 120px;
-  justify-content: center;
 }
 
 .container {
 }
 
 .benefits-container {
-  display: flex;
-  align-items: center;
 }
 
 .visually-hidden {
@@ -234,6 +231,9 @@ img {
 }
 
 .benefits-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 264px;
