@@ -200,12 +200,15 @@ img {
 .benefits {
   padding-top: 120px;
   padding-bottom: 120px;
+  justify-content: center;
 }
 
 .container {
 }
 
 .benefits-container {
+  display: flex;
+  align-items: center;
 }
 
 .visually-hidden {
