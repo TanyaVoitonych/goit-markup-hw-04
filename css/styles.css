@@ -455,7 +455,7 @@ img {
 
 .footer-container {
   display: flex;
-  align-items: fbaseline;
+  align-items: baseline;
 }
 
 .footer-container-nav {
@@ -485,7 +485,7 @@ img {
 }
 
 .container-footer {
-  align-items: flex-start;
+  align-items: baseline;
   justify-content: center;
   display: block;
 }
